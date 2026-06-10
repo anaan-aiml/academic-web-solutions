@@ -394,7 +394,7 @@ export const FAQS: FAQ[] = [
   {
     id: "faq-5",
     question: "What payment methods are supported?",
-    answer: "We support safe, student-friendly digital payment formats, including UPI (GPay, PhonePe, Paytm), net banking, standard credit/debit cards, and split payment milestones where you render partial payments during development phases.",
+    answer: "We support safe, student-friendly digital payment formats, including UPI (GPay, PhonePe, Paytm), Paypal, net banking, standard credit/debit cards, and split payment milestones where you render partial payments during development phases.",
     category: "pricing"
   },
   {
