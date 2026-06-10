@@ -72,9 +72,9 @@ export default function App() {
       "telephone": "+919246710026",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Hyderabad Regional Hub",
-        "addressLocality": "Hyderabad",
-        "addressRegion": "Telangana",
+        "streetAddress": "Regional Hub",
+        "addressLocality": "India",
+        "addressRegion": "India",
         "postalCode": "500001",
         "addressCountry": "IN"
       },
@@ -180,7 +180,7 @@ export default function App() {
                 Get premium expert college tutoring support with operating reports, slide defense files, and complete custom React.js frontend sites.
               </p>
               <div className="flex items-center gap-2 text-xs font-mono text-slate-400">
-                <span className="pulse-dot"></span> Active Hyderabad Support Hub
+                <span className="pulse-dot"></span> Active Support Hub
               </div>
             </div>
 
