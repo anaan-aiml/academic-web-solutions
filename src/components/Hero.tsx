@@ -28,7 +28,7 @@ export default function Hero({ onOpenConsultation, onOpenWhatsApp }: HeroProps) 
 
             <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 text-[10px] sm:text-xs font-extrabold rounded-full w-fit mb-4 uppercase tracking-widest flex items-center gap-1.5">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-600 dark:bg-blue-400 animate-ping"></span>
-              Mohammed Anaan • Professional Freelancer
+              Academic & Web Solutions • Professional Freelancer
             </span>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900 dark:text-white font-display mb-4">
@@ -80,7 +80,7 @@ export default function Hero({ onOpenConsultation, onOpenWhatsApp }: HeroProps) 
                 </span>
               </div>
               <p className="text-slate-400 text-xs leading-relaxed">
-                Need urgent assignment support or wish to discuss software thesis projects with Anaan? Connect instantly!
+                Need urgent assignment support or wish to discuss software thesis projects with Academic & Web Solutions? Connect instantly!
               </p>
             </div>
 
@@ -100,14 +100,14 @@ export default function Hero({ onOpenConsultation, onOpenWhatsApp }: HeroProps) 
               </a>
 
               <a
-                href="mailto:zeb.begum786@gmail.com"
+                href="mailto:academicwebsolutions@gmail.com"
                 className="flex items-center justify-between p-3 bg-slate-800 hover:bg-slate-750 rounded-xl border border-slate-700 transition-colors group"
               >
                 <div className="flex items-center gap-2">
                   <span className="w-8 h-8 rounded-lg bg-purple-500/20 text-purple-400 flex items-center justify-center font-display text-sm">✉️</span>
                   <div className="text-left font-sans">
                     <p className="text-[9px] text-slate-400 uppercase font-bold">Mail Inquiry</p>
-                    <p className="text-xs truncate max-w-[140px] xxs:max-w-none">zeb.begum786@gmail.com</p>
+                    <p className="text-xs truncate max-w-[140px] xxs:max-w-none">academicwebsolutions@gmail.com</p>
                   </div>
                 </div>
                 <span className="text-slate-400 group-hover:text-white transition-transform group-hover:translate-x-1 text-sm">→</span>

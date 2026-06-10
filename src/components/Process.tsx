@@ -5,21 +5,21 @@ export default function Process() {
     {
       step: "01",
       title: "Submit Requirements",
-      desc: "Paste your homework criteria sheets, code checklists, or design descriptions directly using our online Contact form or WhatsApp Anaan.",
+      desc: "Paste your homework criteria sheets, code checklists, or design descriptions directly using our online Contact form or WhatsApp Academic & Web Solutions.",
       icon: <Send className="text-white" size={18} />,
       bg: "bg-blue-600 dark:bg-blue-500"
     },
     {
       step: "02",
       title: "Receive Quotation",
-      desc: "Anaan reviews your instruction files and responds with a flat budget proposal, estimated hours breakdown, and delivery milestones timeline in under an hour.",
+      desc: "Academic & Web Solutions reviews your instruction files and responds with a flat budget proposal, estimated hours breakdown, and delivery milestones timeline in under an hour.",
       icon: <FileText className="text-white" size={18} />,
       bg: "bg-purple-600 dark:bg-purple-500"
     },
     {
       step: "03",
       title: "Project Development",
-      desc: "Development phase begins! Mohammed Anaan personally builds, codes, and refines your project. Regular progress updates and milestones are shared directly with you via WhatsApp or Email.",
+      desc: "Development phase begins! Academic & Web Solutions personally builds, codes, and refines your project. Regular progress updates and milestones are shared directly with you via WhatsApp or Email.",
       icon: <Code className="text-white" size={18} />,
       bg: "bg-amber-600 dark:bg-amber-500"
     },

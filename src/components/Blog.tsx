@@ -93,7 +93,7 @@ export default function Blog() {
               </h3>
 
               <div className="flex items-center gap-4 text-xs font-semibold text-slate-400 pb-5 border-b border-slate-150 dark:border-slate-800/80 mb-6">
-                <span>By Mohammed Anaan</span>
+                <span>By Academic & Web Solutions</span>
                 <span>•</span>
                 <span>{selectedPost.date}</span>
                 <span>•</span>

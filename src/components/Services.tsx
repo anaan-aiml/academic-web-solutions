@@ -55,7 +55,7 @@ export default function Services({ onSelectService }: ServicesProps) {
             Bespoke Services Configured For Success
           </h2>
           <p className="text-slate-500 dark:text-slate-400 text-sm sm:text-base">
-            Whether you need premium assistance parsing difficult college scoring guidelines or wish to layout an interactive high-converting React interface, Mohammed Anaan delivers premium, robust solutions.
+            Whether you need premium assistance parsing difficult college scoring guidelines or wish to layout an interactive high-converting React interface, Academic & Web Solutions delivers premium, robust solutions.
           </p>
         </div>
 

@@ -28,7 +28,7 @@ export default function Header({ darkMode, setDarkMode, onOpenConsultation }: He
           </div>
           <div className="flex flex-col">
             <span className="font-bold text-sm sm:text-base tracking-tight text-slate-900 dark:text-white font-display">
-              Anaan Academic & Web Solutions
+              Academic & Web Solutions
             </span>
             <span className="text-[10px] text-blue-600 dark:text-blue-400 font-bold tracking-widest uppercase -mt-1">
               Premium Freelance Portal

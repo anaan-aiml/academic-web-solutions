@@ -56,7 +56,7 @@ export default function App() {
   };
 
   const handleAssignedCodeCallback = (code: string) => {
-    setShowNotification("Inquiry saved! Mohammed Anaan will contact you shortly.");
+    setShowNotification("Inquiry saved! Academic & Web Solutions will contact you shortly.");
     setTimeout(() => setShowNotification(""), 8000);
   };
 
@@ -65,7 +65,7 @@ export default function App() {
     const ldJson = {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
-      "name": "Anaan Academic & Web Solutions",
+      "name": "Academic & Web Solutions",
       "image": "https://wa.me/919246710026",
       "@id": "",
       "url": "https://wa.me/919246710026",
@@ -173,7 +173,7 @@ export default function App() {
                   A
                 </div>
                 <span className="font-extrabold text-slate-900 dark:text-white font-display text-sm tracking-tight">
-                  Anaan Academic & Web Solutions
+                  Academic & Web Solutions
                 </span>
               </div>
               <p className="text-xs text-slate-500 leading-relaxed max-w-sm">
@@ -198,16 +198,16 @@ export default function App() {
             <div>
               <h4 className="font-bold text-xs uppercase tracking-widest text-slate-400 mb-3">Owner Communications</h4>
               <ul className="space-y-2 text-xs text-slate-500 dark:text-slate-400">
-                <li>Owner: <strong>Mohammed Anaan</strong></li>
+                <li>Owner: <strong>Academic & Web Solutions</strong></li>
                 <li>Phone: <a href="tel:+919246710026" className="hover:underline font-mono font-bold text-slate-900 dark:text-white">+91 9246710026</a></li>
-                <li className="truncate">Email: <a href="mailto:zeb.begum786@gmail.com" className="hover:underline font-bold text-blue-600 dark:text-blue-450">zeb.begum786@gmail.com</a></li>
+                <li className="truncate">Email: <a href="mailto:academicwebsolutions@gmail.com" className="hover:underline font-bold text-blue-600 dark:text-blue-450">academicwebsolutions@gmail.com</a></li>
               </ul>
             </div>
             
           </div>
 
           <div className="pt-8 mt-8 border-t border-slate-150 dark:border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-[10px] sm:text-xs font-bold text-slate-400 uppercase tracking-wider">
-            <p>© 2026 Mohammed Anaan • Specialized Academic & Tech Solutions.</p>
+            <p>© 2026 Specialized Academic & Tech Solutions.</p>
             <div className="flex gap-4">
               <span className="hover:underline cursor-pointer">Scribner Schema</span>
               <span>•</span>
@@ -266,7 +266,7 @@ export default function App() {
             </h3>
             
             <p className="text-xs text-slate-500 leading-relaxed mb-6 font-sans">
-              Get an absolute free structural project proposal roadmap outline detailing your college assignments or web dev guidelines! Mohammed Anaan compiles this free of cost.
+              Get an absolute free structural project proposal roadmap outline detailing your college assignments or web dev guidelines! compiles this free of cost.
             </p>
 
             <div className="space-y-2">
@@ -315,7 +315,7 @@ export default function App() {
             </h3>
             
             <p className="text-xs text-slate-500 mb-6 font-sans">
-              Choose your favorite communication format to schedule a direct milestone briefing with Mohammed Anaan:
+              Choose your favorite communication format to schedule a direct milestone briefing:
             </p>
 
             <div className="space-y-2 text-xs font-bold font-display">
@@ -326,7 +326,7 @@ export default function App() {
                 onClick={() => setShowConsultationOverlay(false)}
                 className="w-full py-3 bg-emerald-600 text-white rounded-xl hover:bg-emerald-700 transition-colors flex items-center justify-center gap-2 cursor-pointer"
               >
-                <span className="text-sm">💬</span> Text Anaan on WhatsApp
+                <span className="text-sm">💬</span> Text Academic & Web Solutions on WhatsApp
               </a>
 
               <a

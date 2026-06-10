@@ -333,7 +333,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Aarav Sharma",
     role: "Final Year CSE Student",
     rating: 5,
-    text: "Mohammed Anaan's assignment support was a complete lifesaver! I received my operating systems documentation and algorithms report full 48 hours before the university limit. The formatting was impeccable, and I scored an A+ grade!",
+    text: "Academic & Web Solutions's assignment support was a complete lifesaver! I received my operating systems documentation and algorithms report full 48 hours before the university limit. The formatting was impeccable, and I scored an A+ grade!",
     category: "Assignment Support",
     studentAvatarLetter: "A"
   },
@@ -342,7 +342,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Sneha Patel",
     role: "Computer Science Graduate",
     rating: 5,
-    text: "The React website built by Anaan for my capstone project was stunning. Visually highly professional, extremely fast, and the code comments were so logical that I easily explained my defense thesis to the jury panels.",
+    text: "The React website built by Academic & Web Solutions for my capstone project was stunning. Visually highly professional, extremely fast, and the code comments were so logical that I easily explained my defense thesis to the jury panels.",
     category: "Website Development",
     studentAvatarLetter: "S"
   },
@@ -351,7 +351,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Vikram Reddy",
     role: "Mechanical Engineering Student",
     rating: 5,
-    text: "The project defense slides and speaker notes Anaan designed look like they came from a premium McKinsey report! Clear layout, stunning graphics, and zero clutter. I felt exceptionally confident speaking in front of my board.",
+    text: "The project defense slides and speaker notes Academic & Web Solutions designed look like they came from a premium McKinsey report! Clear layout, stunning graphics, and zero clutter. I felt exceptionally confident speaking in front of my board.",
     category: "Presentation Assistance",
     studentAvatarLetter: "V"
   },
@@ -360,7 +360,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Anjali Rao",
     role: "Information Technology Student",
     rating: 5,
-    text: "Unbelievable service! Anaan assisted me through diagnostic project review and SRS compiling. He responded within minutes on WhatsApp, answered my questions patiently, and handled multiple correction loops without complaints.",
+    text: "Unbelievable service! Academic & Web Solutions assisted me through diagnostic project review and SRS compiling. He responded within minutes on WhatsApp, answered my questions patiently, and handled multiple correction loops without complaints.",
     category: "Assessment Guidance",
     studentAvatarLetter: "A"
   }
@@ -370,7 +370,7 @@ export const FAQS: FAQ[] = [
   {
     id: "faq-1",
     question: "How do I place an order?",
-    answer: "Placing an order is simple and quick! Use our contact form to detail your requirements, send a direct WhatsApp message to +91 9246710026, or click 'Contact Now'. Anaan will review your submission and connect with you shortly to finalize details.",
+    answer: "Placing an order is simple and quick! Use our contact form to detail your requirements, send a direct WhatsApp message to +91 9246710026, or click 'Contact Now'. Academic & Web Solutions will review your submission and connect with you shortly to finalize details.",
     category: "general"
   },
   {
@@ -400,7 +400,7 @@ export const FAQS: FAQ[] = [
   {
     id: "faq-6",
     question: "How do I contact support directly?",
-    answer: "Mohammed Anaan is directly available on WhatsApp (+91 9246710026) or via email (zeb.begum786@gmail.com). Additionally, you can trigger the floating contact controls at the margins of the screen to start a conversation.",
+    answer: "Academic & Web Solutions is directly available on WhatsApp (+91 9246710026) or via email (academicwebsolutions@gmail.com). Additionally, you can trigger the floating contact controls at the margins of the screen to start a conversation.",
     category: "general"
   }
 ];

@@ -146,8 +146,8 @@ let tracks: TrackRecord[] = [
     ],
     revisions: [],
     messages: [
-      { id: "m-1", sender: "client", senderName: "Vikram Reddy", text: "Hi Anaan, I just uploaded the updated requirements document. Please check the section on system actors.", timestamp: "2026-06-07T09:14:00Z" },
-      { id: "m-2", sender: "admin", senderName: "Mohammed Anaan", text: "Got it, Vikram! Analyzing actors now. I'll post the preliminary use-case drafts here today.", timestamp: "2026-06-07T11:20:00Z" }
+      { id: "m-1", sender: "client", senderName: "Vikram Reddy", text: "Hi Academic & Web Solutions, I just uploaded the updated requirements document. Please check the section on system actors.", timestamp: "2026-06-07T09:14:00Z" },
+      { id: "m-2", sender: "admin", senderName: "Academic & Web Solutions", text: "Got it, Vikram! Analyzing actors now. I'll post the preliminary use-case drafts here today.", timestamp: "2026-06-07T11:20:00Z" }
     ]
   },
   {
@@ -176,7 +176,7 @@ let tracks: TrackRecord[] = [
       { id: "r-1", description: "Adjust biography transition speed to be slightly slower.", status: "resolved", createdAt: "2026-06-09T09:15:00Z" }
     ],
     messages: [
-      { id: "m-3", sender: "admin", senderName: "Mohammed Anaan", text: "Hello Sneha, the complete portfolio is now uploaded. You can test it online or download the Vite build code above.", timestamp: "2026-06-09T09:00:00Z" },
+      { id: "m-3", sender: "admin", senderName: "Academic & Web Solutions", text: "Hello Sneha, the complete portfolio is now uploaded. You can test it online or download the Vite build code above.", timestamp: "2026-06-09T09:00:00Z" },
       { id: "m-4", sender: "client", senderName: "Sneha Patel", text: "Wow, this is gorgeous! Perfect layout. Re-checked transitions and they feel awesome now.", timestamp: "2026-06-09T09:30:00Z" }
     ]
   }
@@ -232,14 +232,14 @@ app.post("/api/inquiries", (req: Request, res: Response) => {
     quotedPrice: 0,
     paymentStatus: "pending",
     timeline: [
-      { status: "received", title: "Project Scope Lodged Successfully", date: new Date().toISOString(), completed: true, remark: "Inquiry registered into Anaan Solutions router." },
+      { status: "received", title: "Project Scope Lodged Successfully", date: new Date().toISOString(), completed: true, remark: "Inquiry registered into Academic & Web Solutions Solutions router." },
       { status: "quoted", title: "Awaiting Admin Review & Price Quote", date: "TBD", completed: false },
       { status: "in_development", title: "Design & Assembly Blueprint", date: "TBD", completed: false }
     ],
     files: [],
     revisions: [],
     messages: [
-      { id: generateId("m"), sender: "ai", senderName: "Anaan Virtual Assistant", text: `Hi ${fullName}! Thanks for choosing Anaan Academic & Web Solutions. Mohammed Anaan has been automatically paged and will send you a price offer and custom roadmap directly here on this portal and on your WhatsApp within an hour!`, timestamp: new Date().toISOString() }
+      { id: generateId("m"), sender: "ai", senderName: "Academic & Web Solutions Virtual Assistant", text: `Hi ${fullName}! Thanks for choosing Academic & Web Solutions Academic & Web Solutions. Academic & Web Solutions has been automatically paged and will send you a price offer and custom roadmap directly here on this portal and on your WhatsApp within an hour!`, timestamp: new Date().toISOString() }
     ]
   };
 
@@ -351,7 +351,7 @@ app.post("/api/tracks/:id/revisions", (req: Request, res: Response) => {
   tracks[trackIdx].messages.push({
     id: generateId("m"),
     sender: "admin",
-    senderName: "Mohammed Anaan",
+    senderName: "Academic & Web Solutions",
     text: `Revision request for: "${description}" logged. I will adjust the project structures and update you here directly.`,
     timestamp: new Date().toISOString()
   });
@@ -421,10 +421,10 @@ app.patch("/api/tracks/:id", (req: Request, res: Response) => {
 
 // Contact and support numbers
 const BUSINESS_KNOWLEDGE = `
-Owner Name: Mohammed Anaan
-Business Name: Anaan Academic & Web Solutions
+Owner Name: Academic & Web Solutions
+Business Name: Academic & Web Solutions
 Owner Mobile Phone: +91 9246710026
-Owner Email: zeb.begum786@gmail.com
+Owner Email: academicwebsolutions@gmail.com
 Target Audience: Intermediate, college, or university students needing assignment and assessment guides. Plus small businesses/students needing premium portfolios or custom React.js frontend work.
 
 Services Offered:
@@ -470,16 +470,16 @@ app.post("/api/chat", async (req: Request, res: Response) => {
 
   try {
     const ai = getGeminiClient();
-    const systemPrompt = `You are a helpful, professional, friendly Virtual Assistant representing "Anaan Academic & Web Solutions" (founded and run by Mohammed Anaan).
+    const systemPrompt = `You are a helpful, professional, friendly Virtual Assistant representing "Academic & Web Solutions" (founded and run by Academic & Web Solutions).
     Use your knowledge to answer prospective client queries logically, politely, and cleanly in professional formatted Markdown:
     ${BUSINESS_KNOWLEDGE}
 
     Guidelines:
-    1. Be concise, respectful, academic-focused, and encourage them to submit an inquiry through the contact form or message Anaan directly on WhatsApp.
+    1. Be concise, respectful, academic-focused, and encourage them to submit an inquiry through the contact form or message Academic & Web Solutions directly on WhatsApp.
     2. If they ask about assignments, tell them we offer plagiarised-free guarantees, formatting matching, and timely completions.
     3. If they ask about web dev, tell them code is commented heavily so they pass university defenses.
     4. If they want a price offer, politely explain that we provide custom tailored suggestions on review of assignment guidelines, totally free of charge.
-    5. Always state that Anaan is available directly at +91 9246710026 and zeb.begum786@gmail.com.
+    5. Always state that Academic & Web Solutions is available directly at +91 9246710026 and academicwebsolutions@gmail.com.
     6. Ensure formatting is beautiful with bullet points.`;
 
     // Map conversation array to Gemini content structures
@@ -497,21 +497,21 @@ app.post("/api/chat", async (req: Request, res: Response) => {
       }
     });
 
-    const aiText = response.text || "Hello! How can Anaan Academic & Web Solutions help you with college reports or responsive portfolios today?";
+    const aiText = response.text || "Hello! How can Academic & Web Solutions Academic & Web Solutions help you with college reports or responsive portfolios today?";
     res.json({ text: aiText });
   } catch (error: any) {
     console.error("Gemini API Error:", error?.message || error);
     // Fallback static smart response in case API key is missing or invalid
-    let answerText = "Thank you for reaching out! I am Anaan's automated customer companion. ";
+    let answerText = "Thank you for reaching out! I am Academic & Web Solutions's automated customer companion. ";
     const textLower = prompt.toLowerCase();
     if (textLower.includes("price") || textLower.includes("cost") || textLower.includes("pricing") || textLower.includes("charge")) {
-      answerText += "Our services feature customized, friendly rates structured around your specific instructions, scope, and deadlines. We do not charge anything upfront for outlining proposals! To get a free customized review, please submit our inquiry form or contact Anaan directly on his WhatsApp or Phone at +91 9246710026.";
+      answerText += "Our services feature customized, friendly rates structured around your specific instructions, scope, and deadlines. We do not charge anything upfront for outlining proposals! To get a free customized review, please submit our inquiry form or contact Academic & Web Solutions directly on his WhatsApp or Phone at +91 9246710026.";
     } else if (textLower.includes("assignment") || textLower.includes("report") || textLower.includes("ppt") || textLower.includes("homework")) {
       answerText += "We deliver plagiarism-free, highly analytical college assessments, lab logs, PowerPoints, and source-referenced essays. All files are matched to your university instruction rubric. Simply post your briefing via our contact form on this page or text us on WhatsApp.";
     } else if (textLower.includes("website") || textLower.includes("react") || textLower.includes("portfolio") || textLower.includes("development")) {
       answerText += "We develop top-notch frontend web projects, student portolios, and responsive React websites. Code is commented heavily to assist you during college viva defenses. We host builds on Vercel or Netlify for you! Let us know your criteria in the contact panel.";
     } else {
-      answerText += "We specialize in standard-compliant academic support (lab reports, PPTs, assignment files) and premium React.js frontend portfolio websites. Please text Mohammed Anaan directly at +91 9246710026 or email zeb.begum786@gmail.com for a swift turnaround!";
+      answerText += "We specialize in standard-compliant academic support (lab reports, PPTs, assignment files) and premium React.js frontend portfolio websites. Please text Academic & Web Solutions directly at +91 9246710026 or email academicwebsolutions@gmail.com for a swift turnaround!";
     }
     res.json({ text: answerText });
   }

@@ -65,7 +65,7 @@ export default function Contact({ prefilledService, onSuccess }: ContactProps) {
     }
 
     // Formulate WhatsApp message before clearing inputs
-    const wsText = `Hi Mohammed Anaan, I just submitted a Project Inquiry on your portal!\n\n` +
+    const wsText = `Hi Academic & Web Solutions, I just submitted a Project Inquiry on your portal!\n\n` +
       `*Project Brief details:*\n` +
       `• *Name:* ${fullName}\n` +
       `• *Email:* ${email}\n` +
@@ -118,7 +118,7 @@ export default function Contact({ prefilledService, onSuccess }: ContactProps) {
             Request A Free Project Proposal
           </h2>
           <p className="text-slate-500 dark:text-slate-400 text-sm sm:text-base font-sans">
-            Submit your instruction sheets, project rubrics, or coding outlines below. Anaan will compile a structured proposal outline.
+            Submit your instruction sheets, project rubrics, or coding outlines below. Academic & Web Solutions will compile a structured proposal outline.
           </p>
         </div>
 
@@ -134,7 +134,7 @@ export default function Contact({ prefilledService, onSuccess }: ContactProps) {
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 dark:text-white font-display">Inquiry Registered Successfully!</h3>
                 <p className="text-sm text-slate-500 max-w-md mx-auto">
-                  Hi from Anaan! We have received your project criteria. Mohammed Anaan will review your requirements and reach out to you via WhatsApp or Email shortly.
+                  Hi from Academic & Web Solutions! We have received your project criteria. Academic & Web Solutions will review your requirements and reach out to you via WhatsApp or Email shortly.
                 </p>
 
                 <div className="pt-4 flex flex-col sm:flex-row justify-center gap-2">
@@ -144,7 +144,7 @@ export default function Contact({ prefilledService, onSuccess }: ContactProps) {
                     rel="noopener noreferrer"
                     className="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-xl flex items-center justify-center gap-2"
                   >
-                    Message Anaan on WhatsApp
+                    Message Academic & Web Solutions on WhatsApp
                   </a>
                   <button
                     onClick={() => setFormSuccess(false)}
@@ -267,7 +267,7 @@ export default function Contact({ prefilledService, onSuccess }: ContactProps) {
 
                 {/* Anti Spam check notice */}
                 <p className="text-[10px] text-slate-400">
-                  🔒 By submitting, you authorize Anaan Academic & Web Solutions to process your project request. Secure connections established.
+                  🔒 By submitting, you authorize Academic & Web Solutions Academic & Web Solutions to process your project request. Secure connections established.
                 </p>
 
                 {/* Submit action */}
@@ -295,7 +295,7 @@ export default function Contact({ prefilledService, onSuccess }: ContactProps) {
             {/* Particulars Card */}
             <div className="bg-slate-900 border border-slate-800 text-white p-6 sm:p-8 rounded-3xl">
               <span className="text-[9px] uppercase font-black text-amber-400 tracking-wider">Freelancer profile</span>
-              <h3 className="text-xl font-black font-display text-white mt-1 mb-1">Mohammed Anaan</h3>
+              <h3 className="text-xl font-black font-display text-white mt-1 mb-1">Academic & Web Solutions</h3>
               <p className="text-xs text-slate-400 mb-6">Founder • Specialist Academic Tutor & React Developer</p>
 
               <div className="space-y-4">
@@ -315,7 +315,7 @@ export default function Contact({ prefilledService, onSuccess }: ContactProps) {
                   </div>
                   <div className="truncate">
                     <p className="text-[9px] text-slate-400 font-bold uppercase">Email Inbox</p>
-                    <a href="mailto:zeb.begum786@gmail.com" className="text-xs hover:underline truncate">zeb.begum786@gmail.com</a>
+                    <a href="mailto:academicwebsolutions@gmail.com" className="text-xs hover:underline truncate">academicwebsolutions@gmail.com</a>
                   </div>
                 </div>
 

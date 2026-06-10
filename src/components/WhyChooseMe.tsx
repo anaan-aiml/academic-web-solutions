@@ -25,7 +25,7 @@ export default function WhyChooseMe() {
     },
     {
       title: "Direct Communication",
-      desc: "Skip middlemen! Text and track changes on WhatsApp directly with Anaan.",
+      desc: "Skip middlemen! Text and track changes on WhatsApp directly with Academic & Web Solutions.",
       icon: <MessageSquare className="text-purple-600 dark:text-purple-450" size={24} />,
       bg: "bg-purple-100 dark:bg-purple-950/30"
     },
@@ -68,7 +68,7 @@ export default function WhyChooseMe() {
             Why Students & Small Businesses Prefer Us
           </h2>
           <p className="text-slate-500 dark:text-slate-400 text-sm sm:text-base">
-            Mohammed Anaan brings comprehensive fullstack developer skillsets mixed with rigorous academic standards to ensure perfect peace of mind.
+            Academic & Web Solutions brings comprehensive fullstack developer skillsets mixed with rigorous academic standards to ensure perfect peace of mind.
           </p>
         </div>
 

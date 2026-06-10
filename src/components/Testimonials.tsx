@@ -15,7 +15,7 @@ export default function Testimonials() {
             Hear From Our Satisfied Clients
           </h2>
           <p className="text-slate-500 dark:text-slate-400 text-sm sm:text-base">
-            Students and business owners from all over the world trust Anaan for fast turnaround timelines and pristine code delivery rates.
+            Students and business owners from all over the world trust Academic & Web Solutions for fast turnaround timelines and pristine code delivery rates.
           </p>
         </div>
 
